@@ -15,9 +15,9 @@ void __attribute__ ((noinline)) timed_task() {
 
 You should have t-crest, platin etc installed normally.
 
-`Make build` will make the executable and put it into the t-crest patmos tmp folder for download to the FPGA.
+`make build` will make the executable and put it into the t-crest patmos tmp folder for download to the FPGA (using `make download APP=easy-wcet` from within $TCREST/patmos/)
 
-`Make wcet` will make the WCET report.
+`make wcet` will make the WCET report.
 
 In the Makefile you can change / alter the parameters for the timing analysis (pml-config command). See the wcet-config section.
 
