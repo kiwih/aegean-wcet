@@ -1,5 +1,18 @@
 # aegean wcet example
 
+The purpose of this repository is to show how to both *measure* and *compute* the WCET for the simple function below on the t-crest platform.
+
+```c
+void __attribute__ ((noinline)) timed_task() {
+	volatile int x;
+	volatile int y;
+	_Pragma("loopbound min 0 max 99")
+	for(x = 0; x < 100; x++) {
+		y = x;
+	}
+}
+```
+
 You should have t-crest, platin etc installed normally.
 
 `Make build` will make the executable and put it into the t-crest patmos tmp folder for download to the FPGA.
