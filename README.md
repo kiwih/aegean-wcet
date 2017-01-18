@@ -1,4 +1,4 @@
-# aegean-wcet
+# aegean wcet example
 
 You should have t-crest, platin etc installed normally.
 
