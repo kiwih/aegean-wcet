@@ -197211,7 +197211,7 @@ relation-graphs:
 timing:
 - scope:
     function: 7
-  cycles: 52988
+  cycles: 42551
   level: machinecode
   origin: platin
   cache-max-cycles-instr: 0
@@ -197219,41 +197219,41 @@ timing:
   cache-max-misses-instr: 0
   cache-max-cycles-stack: 0
   cache-max-misses-stack: 0
-  cache-max-cycles-data: 51688
+  cache-max-cycles-data: 41251
   cache-min-hits-data: 0
   cache-max-misses-data: 298
   cache-max-stores-data: 199
   cache-unknown-address-data: 497
-  cache-max-cycles: 51688
+  cache-max-cycles: 41251
   profile:
   - reference:
       function: 7
       edgesource: 0
       edgetarget: 1
-    cycles: 109
+    cycles: 88
     wcet-frequency: 1
-    wcet-contribution: 109
+    wcet-contribution: 88
   - reference:
       function: 7
       edgesource: 2
       edgetarget: 1
-    cycles: 423
+    cycles: 339
     wcet-frequency: 99
-    wcet-contribution: 41877
+    wcet-contribution: 33561
   - reference:
       function: 7
       edgesource: 1
       edgetarget: 2
-    cycles: 110
+    cycles: 89
     wcet-frequency: 99
-    wcet-contribution: 10890
+    wcet-contribution: 8811
   - reference:
       function: 7
       edgesource: 1
       edgetarget: 3
-    cycles: 108
+    cycles: 87
     wcet-frequency: 1
-    wcet-contribution: 108
+    wcet-contribution: 87
   - reference:
       function: 7
       edgesource: 3

@@ -30,6 +30,7 @@ Results (all for DE2-115):
 | Platin wcet   | 52988                       |
 
 Note: Platin WCET is run with pml-config --tdelay=83 --bsize=16 as each core has its own slot in the arbiter and 4 cores have 4 slots of each 21 cycles, making --tdelay = 4 x 21-1 = 83.
+Note: MS have updated to use --gtime 83 and --tdelay 0, which results in less cycles.
 
 --disable-ait is also set as Ait was not available for this analysis.
 
