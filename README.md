@@ -27,10 +27,9 @@ Results (all for DE2-115):
 | ------------- | ---------------------------:|
 | Aegean 4-core | 17445                       |
 | Patmos 1-core | 5483                        |
-| Platin wcet   | 52988                       |
+| Platin wcet   | 42551                       |
 
-Note: Platin WCET is run with pml-config --tdelay=83 --bsize=16 as each core has its own slot in the arbiter and 4 cores have 4 slots of each 21 cycles, making --tdelay = 4 x 21-1 = 83.
-Note: MS have updated to use --gtime 83 and --tdelay 0, which results in less cycles.
+Note: Platin WCET is run with pml-config --gtime=83 --bsize=16 as each core has its own slot in the arbiter and 4 cores have 4 slots of each 21 cycles, making --gtime = 4 x 21-1 = 83. --tdelay = 0.
 
 --disable-ait is also set as Ait was not available for this analysis.
 
